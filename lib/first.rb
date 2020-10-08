@@ -6,8 +6,7 @@ module First
   end
 end
 
-class String
-  
+class tt
     
   include First
 end
