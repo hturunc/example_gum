@@ -1,7 +1,9 @@
 require "first/version"
-require "first/hello"
-class String
-  def printMessage(message)
-   
+
+module AwesomeGem
+  class WhoIs
+    def self.awesome?
+      puts "YOU ARE AWESOME!!"
+    end
   end
 end
