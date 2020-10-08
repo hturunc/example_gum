@@ -1,6 +1,6 @@
 require "first/version"
 
-module Fisrt
+module First
   class WhoIs
     def self.awesome?
       puts "YOU ARE AWESOME!!"
