@@ -1,8 +1,13 @@
 require "first/version"
 require "first/hello"
-module First
-  class Error < StandardError; end
+module First  
   def printMessage(message)
     puts message
   end
+end
+
+class String
+  
+    
+  include First
 end
