@@ -1,6 +1,6 @@
 require "first/version"
 
-module First
+module first1
   class WhoIs
     def self.awesome?
       puts "YOU ARE AWESOME!!"
