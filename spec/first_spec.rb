@@ -1,9 +1,7 @@
 RSpec.describe First do
-  it "has a version number" do
-    expect(First::VERSION).not_to be nil
-  end
-
-  it "does something useful" do
-    expect(false).to eq(true)
+  context "first test" do
+    it "is a test" do
+       expect(1).to eql(1)
+    end
   end
 end
